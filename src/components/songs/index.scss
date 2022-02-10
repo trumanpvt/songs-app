@@ -1,0 +1,25 @@
+.songs {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+
+  .songs-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+
+    &__id {
+      width: 20px;
+      margin-right: 30px;
+    }
+
+    &__title {
+    }
+
+  }
+
+  .songs-list {
+    border: 1px solid lightgray;
+  }
+}

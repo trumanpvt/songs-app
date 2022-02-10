@@ -1,0 +1,1 @@
+export const TOGGLE_SONG_IS_FAV = 'TOGGLE_SONG_IS_FAV';

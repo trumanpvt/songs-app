@@ -1,0 +1,32 @@
+.song {
+  background: rgba(213, 225, 223, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background: rgba(213, 225, 223, 0.5);
+  }
+
+  &_grey {
+    background: rgba(213, 225, 223, 1);
+  }
+
+  .song-main {
+    display: flex;
+
+    &__id {
+      width: 20px;
+      margin-right: 30px;
+    }
+
+    &__title {
+    }
+  }
+
+  &__icon {
+    width: 15px;
+  }
+}
