@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/songs-app/static/css/main.e589fd79.css",
-    "main.js": "/songs-app/static/js/main.5f145fbc.js",
+    "main.js": "/songs-app/static/js/main.099d56f4.js",
     "static/js/787.9c767e54.chunk.js": "/songs-app/static/js/787.9c767e54.chunk.js",
     "static/media/eye-icon.svg": "/songs-app/static/media/eye-icon.5848ac9a9c66e7912d2dcdc182571508.svg",
     "index.html": "/songs-app/index.html",
     "main.e589fd79.css.map": "/songs-app/static/css/main.e589fd79.css.map",
-    "main.5f145fbc.js.map": "/songs-app/static/js/main.5f145fbc.js.map",
+    "main.099d56f4.js.map": "/songs-app/static/js/main.099d56f4.js.map",
     "787.9c767e54.chunk.js.map": "/songs-app/static/js/787.9c767e54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e589fd79.css",
-    "static/js/main.5f145fbc.js"
+    "static/js/main.099d56f4.js"
   ]
 }
