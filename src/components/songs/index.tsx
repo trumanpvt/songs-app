@@ -7,7 +7,9 @@ import {SongInterface} from "../../interfaces";
 
 function Songs() {
 
-    const songsArray: any = useSelector((state: RootState) => state.songsArray);
+    const songsArray: SongInterface[] = useSelector((state: RootState) => state.songsArray);
+
+    songsArray.sort((a, b) => a.id - b.id);
 
     return (
         <div className="songs">
