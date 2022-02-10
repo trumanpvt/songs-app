@@ -1,6 +1,6 @@
 import {SongInterface} from "../interfaces";
 
-const initialState: {songsArray?: SongInterface[]} = {
+const initialState: { songsArray?: SongInterface[] } = {
     songsArray: [
         {
             id: 1,
