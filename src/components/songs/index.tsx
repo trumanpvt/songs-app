@@ -9,6 +9,7 @@ function Songs() {
 
     const songsArray: SongInterface[] = useSelector((state: RootState) => state.songsArray);
 
+    console.log('test')
     songsArray.sort((a, b) => a.id - b.id);
 
     return (
