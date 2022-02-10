@@ -1,11 +1,11 @@
 import {SongInterface} from "../interfaces";
 
-const initialState: {songsArray: SongInterface[]} = {
+const initialState: {songsArray?: SongInterface[]} = {
     songsArray: [
         {
             id: 1,
-            band: 'Tool',
-            name: 'Fear Inoculum',
+            // band: 'Tool',
+            // name: 'Fear Inoculum',
         },
         {
             id: 3,

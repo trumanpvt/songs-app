@@ -22,7 +22,7 @@ function Song({id, band, name, index = 0, is_fav = false}: SongInterface) {
                     {id}
                 </div>
                 <div className="song-main__title">
-                    {`${band} - ${name}`}
+                    {`${band ? band : 'Untitled'} - ${name ? name : id}`}
                 </div>
             </div>
             {is_fav ?
